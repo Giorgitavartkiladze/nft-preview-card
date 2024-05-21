@@ -1,0 +1,106 @@
+/* - Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+red
+	
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%) */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(217, 54%, 11%);
+    /* vh - viewport height */
+    min-height: 100vh;
+    margin: 0px;
+    font-family: "Outfit", sans-serif;
+
+
+}
+
+.card {
+    max-width: 280px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 10px;
+
+
+}
+
+
+.card-main-img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.h2-color {
+    color: hsl(0, 0%, 100%);
+}
+
+.p-color {
+    color: hsl(215, 51%, 70%);
+}
+
+.p-conteiner {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.p-son {
+    display: flex;
+    gap: 10px;
+    color: hsl(178, 100%, 50%);
+    align-items: center;
+}
+
+.clock-main {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.clock-main p {
+    color: hsl(215, 51%, 70%);
+    font-family: serif;
+}
+
+.line {
+    background-color: hsl(215, 32%, 27%);
+    height: 1px;
+    margin: 10px 0px;
+
+}
+
+
+.img-conteiner {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-conteiner p {
+    color: hsl(215, 51%, 70%);
+}
+
+.profile-pic {
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+
+}
+
+.name-color {
+    color: white;
+
+}
